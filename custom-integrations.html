@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom AI Integrations | HELD</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Initial Loading Animation -->
+    <div id="loader" class="loader-container">
+        <div class="loader-ring"></div>
+        <div class="loader-text">LOADING INTEGRATIONS...</div>
+    </div>
+
+    <!-- Background Animation Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Top Navigation Bar -->
+    <nav class="page-nav">
+        <a href="index.html" class="nav-logo">HELD</a>
+        <a href="index.html" class="nav-back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+    </nav>
+
+    <main class="subpage-container">
+        <header class="subpage-header hidden-on-scroll">
+            <div class="subpage-icon"><i class="fa-solid fa-code-branch"></i></div>
+            <h1 class="subpage-title">Custom AI Integrations</h1>
+        </header>
+
+        <section class="ai-hero-card glass-card hidden-on-scroll delay-1">
+            <p class="ai-hero-text">
+                Seamlessly bridge existing enterprise software with modern AI capabilities. HELD provides custom API connectors, plugin architectures, and secure data sync middleware to upgrade your legacy platforms into AI-powered powerhouses.
+            </p>
+        </section>
+
+        <section class="detail-grid">
+            <div class="detail-card glass-card hidden-on-scroll delay-2">
+                <div class="detail-card-icon"><i class="fa-solid fa-plug"></i></div>
+                <h4>API & SDK Integration</h4>
+                <p>Connect OpenAI, Anthropic, custom LLMs, or internal models into your software stack with low-latency REST and gRPC gateways.</p>
+            </div>
+
+            <div class="detail-card glass-card hidden-on-scroll delay-3">
+                <div class="detail-card-icon"><i class="fa-solid fa-server"></i></div>
+                <h4>Legacy System Modernization</h4>
+                <p>Infuse artificial intelligence into existing CRM, ERP, and database frameworks without disrupting ongoing business operations.</p>
+            </div>
+
+            <div class="detail-card glass-card hidden-on-scroll delay-4">
+                <div class="detail-card-icon"><i class="fa-solid fa-lock"></i></div>
+                <h4>Secure On-Premise Deployment</h4>
+                <p>Deploy AI solutions within private cloud environments (AWS, Azure, GCP) or on-premise hardware for maximum security and compliance.</p>
+            </div>
+        </section>
+
+        <div class="cta-box glass-card hidden-on-scroll">
+            <h3>Integrate AI Into Your Existing Software</h3>
+            <p>Schedule a technical strategy call with our AI integration architects.</p>
+            <a href="index.html#contact" class="nav-back-btn" style="display: inline-flex;"><i class="fa-solid fa-envelope"></i> Request Integration Consultation</a>
+        </div>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

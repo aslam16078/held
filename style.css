@@ -559,7 +559,6 @@ body {
     .scroll-indicator {
         bottom: -60px;
     }
-<<<<<<< HEAD
 }
 
 /* Clickable Glass Cards */
@@ -852,6 +851,4 @@ a.feature-card:hover .card-arrow {
     transform: translateY(-3px);
     box-shadow: 0 0 30px rgba(0, 240, 255, 0.7);
     color: #000000;
-=======
->>>>>>> 53cc3ed8ed4c7741a7aaf065f349d00a5c8a1ada
 }
